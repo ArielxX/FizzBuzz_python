@@ -17,3 +17,11 @@ Then set the virtual environment on and install all the dependecies
 pipenv install
 ```
 
+## Running Tests
+
+Run the unit tests using [pytest](https://docs.pytest.org/en/stable/)
+
+```bash
+pipenv run python -m pytest
+```
+

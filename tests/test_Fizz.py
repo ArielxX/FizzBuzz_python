@@ -1,13 +1,13 @@
-import pytest
-from main.FizzBuzz import get_FizzBuzz
+from fizzbuzz.fizzbuzz import get_fizzbuzz# Testing cases with divisible by 3 and not by 5 numbers
 
 def test_Fizz():
-	assert get_FizzBuzz(3) == "Fizz"
-	assert get_FizzBuzz(6) == "Fizz"
-	assert get_FizzBuzz(9) == "Fizz"
-	assert get_FizzBuzz(12) == "Fizz"
-	assert get_FizzBuzz(21) == "Fizz"
-	assert get_FizzBuzz(51) == "Fizz"
-	assert get_FizzBuzz(84) == "Fizz"
-	assert get_FizzBuzz(93) == "Fizz"
-	assert get_FizzBuzz(99) == "Fizz"
+	# Testing cases with divisible by 3 and not by 5 numbers
+	assert get_fizzbuzz(3) == "Fizz"
+	assert get_fizzbuzz(6) == "Fizz"
+	assert get_fizzbuzz(9) == "Fizz"
+	assert get_fizzbuzz(12) == "Fizz"
+	assert get_fizzbuzz(21) == "Fizz"
+	assert get_fizzbuzz(51) == "Fizz"
+	assert get_fizzbuzz(84) == "Fizz"
+	assert get_fizzbuzz(93) == "Fizz"
+	assert get_fizzbuzz(99) == "Fizz"

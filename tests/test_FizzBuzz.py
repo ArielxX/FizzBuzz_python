@@ -1,10 +1,10 @@
-import pytest
-from main.FizzBuzz import get_FizzBuzz
+from fizzbuzz.fizzbuzz import get_fizzbuzz
 
-def test_FizzBuzz():
-	assert get_FizzBuzz(15) == "FizzBuzz"
-	assert get_FizzBuzz(30) == "FizzBuzz"
-	assert get_FizzBuzz(45) == "FizzBuzz"
-	assert get_FizzBuzz(60) == "FizzBuzz"
-	assert get_FizzBuzz(75) == "FizzBuzz"
-	assert get_FizzBuzz(90) == "FizzBuzz"
+def test_fizzbuzz():
+	# Testing cases with divisible by 15 numbers
+	assert get_fizzbuzz(15) == "FizzBuzz"
+	assert get_fizzbuzz(30) == "FizzBuzz"
+	assert get_fizzbuzz(45) == "FizzBuzz"
+	assert get_fizzbuzz(60) == "FizzBuzz"
+	assert get_fizzbuzz(75) == "FizzBuzz"
+	assert get_fizzbuzz(90) == "FizzBuzz"

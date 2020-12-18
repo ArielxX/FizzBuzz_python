@@ -1,15 +1,15 @@
-import pytest
-from main.FizzBuzz import get_FizzBuzz
+from fizzbuzz.fizzbuzz import get_fizzbuzz
 
 def test_numbers():
-	assert get_FizzBuzz(1) == "1"
-	assert get_FizzBuzz(2) == "2"
-	assert get_FizzBuzz(8) == "8"
-	assert get_FizzBuzz(16) == "16"
-	assert get_FizzBuzz(31) == "31"
-	assert get_FizzBuzz(43) == "43"
-	assert get_FizzBuzz(58) == "58"
-	assert get_FizzBuzz(62) == "62"
-	assert get_FizzBuzz(64) == "64"
-	assert get_FizzBuzz(88) == "88"
-	assert get_FizzBuzz(97) == "97"
+	# Testing cases with non divisible by 3 or 5 numbers
+	assert get_fizzbuzz(1) == "1"
+	assert get_fizzbuzz(2) == "2"
+	assert get_fizzbuzz(8) == "8"
+	assert get_fizzbuzz(16) == "16"
+	assert get_fizzbuzz(31) == "31"
+	assert get_fizzbuzz(43) == "43"
+	assert get_fizzbuzz(58) == "58"
+	assert get_fizzbuzz(62) == "62"
+	assert get_fizzbuzz(64) == "64"
+	assert get_fizzbuzz(88) == "88"
+	assert get_fizzbuzz(97) == "97"

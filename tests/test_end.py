@@ -1,15 +1,15 @@
-import pytest
-from main.FizzBuzz import get_FizzBuzz
+from fizzbuzz.fizzbuzz import get_fizzbuzz
 
 def test_end():
-	assert get_FizzBuzz(90) == "FizzBuzz"
-	assert get_FizzBuzz(91) == "91"
-	assert get_FizzBuzz(92) == "92"
-	assert get_FizzBuzz(93) == "Fizz"
-	assert get_FizzBuzz(94) == "94"
-	assert get_FizzBuzz(95) == "Buzz"
-	assert get_FizzBuzz(96) == "Fizz"
-	assert get_FizzBuzz(97) == "97"
-	assert get_FizzBuzz(98) == "98"
-	assert get_FizzBuzz(99) == "Fizz"
-	assert get_FizzBuzz(100) == "Buzz"
+	# Testing cases with the last numbers
+	assert get_fizzbuzz(90) == "FizzBuzz"
+	assert get_fizzbuzz(91) == "91"
+	assert get_fizzbuzz(92) == "92"
+	assert get_fizzbuzz(93) == "Fizz"
+	assert get_fizzbuzz(94) == "94"
+	assert get_fizzbuzz(95) == "Buzz"
+	assert get_fizzbuzz(96) == "Fizz"
+	assert get_fizzbuzz(97) == "97"
+	assert get_fizzbuzz(98) == "98"
+	assert get_fizzbuzz(99) == "Fizz"
+	assert get_fizzbuzz(100) == "Buzz"

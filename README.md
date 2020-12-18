@@ -1,4 +1,5 @@
 
+
 # FizzBuzz
 
 Simple [FizzBuzz](http://wiki.c2.com/?FizzBuzzTest) project using python3
@@ -25,3 +26,11 @@ Run the unit tests using [pytest](https://docs.pytest.org/en/stable/)
 pipenv run python -m pytest
 ```
 
+## Run the project
+
+Move into the **main** folder and run the **FizzBuzz** program
+
+```bash
+cd main
+python FizzBuzz.py
+```

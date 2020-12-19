@@ -1,6 +1,4 @@
 
-
-
 # FizzBuzz
 
 Simple [FizzBuzz](http://wiki.c2.com/?FizzBuzzTest) project using python3
@@ -56,3 +54,13 @@ Fizz
 Buzz
 ```
 
+### Colors
+
+Using the [colored](https://pypi.org/project/colored/) package, each different output will have a color that will differentiate it:
+
+|Answer|Color|
+|--------|-------|
+|_Fizz_ | Blue |
+|_Buzz_ |Red |
+|_Fizzbuzz_ | Green |
+|numbers | White |

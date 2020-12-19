@@ -16,11 +16,13 @@ def get_fizzbuzz(a):
 		return 'Fizz', fg('blue')
 	if a % 5 == 0:
 		return 'Buzz', fg('red')
-	return str(a), fg('black')
+	return str(a), fg('white')
 
 
 def fizzbuzz(a, b):
-	# Print the Fizzbuzz for every number between a and b
+	'''
+	Print the Fizzbuzz for every number between a and b
+	'''
 	while a <= b:
 		[ans, color] = get_fizzbuzz(a)
 		print(stylize(ans, color))
